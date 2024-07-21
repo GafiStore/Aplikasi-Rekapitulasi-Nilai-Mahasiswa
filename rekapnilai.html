@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekap Nilai Page</title>
+
+    <!-- Bootstrap Css -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- My Css -->
+    <link rel="stylesheet" href="asset/css/style-rekapnilai.css">
+
+</head>
+<body class="vh-100">
+    <!-- Header -->
+    <header class="justify-content-between d-flex text-white">
+        <div class="header-left d-flex align-items-center">
+            <img class="logo" src="asset/images/logo-amikom.png" alt="logo-amikom">
+            <div>
+                <h1>UNIVERSITAS AMIKOM</h1>
+                <p>YOGYAKARTA</p>
+            </div>
+        </div>
+        <div class="header-right d-flex align-items-center">
+            <img class="avatar" src="asset/images/avatar-3.png" alt="avatar">
+            <div>
+                <h4>Nama Lengkap Dosen</h4>
+                <p>Nomor Induk Dosen</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-flex flex-column justify-content-between sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="dashboard.html">
+                            <img src="asset/images/home-dashboard.png" alt="">Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="tambahdata.html">
+                            <img src="asset/images/tambahdata.png" alt="">Tambah Data
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="rekapnilai.html">
+                            <img src="asset/images/rekapnilai.png" alt="">Rekap Nilai
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <img src="asset/images/people.png" alt="">Profil Dosen
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item out">
+                        <a class="nav-link active" aria-current="page" href="login.html">
+                            <img src="asset/images/keluar.png" alt="">Keluar
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Content -->
+            <main class="container col-md-9 ms-sm-auto col-lg-10 px-md-4 p-4">
+                <div class="container-fluid d-flex content-box text-white align-items-center">
+                    <img src="asset/images/box-qr.png" alt="box-qr" style="width: 150px;height: auto;">
+                    <div class="content-box-text">
+                        <h2>Selamat Datang di Dashboard Dosen,</h2>
+                        <h2>Creativity Amikom Yogyakarta</h2>
+                    </div>
+                </div>
+                <div class="rekap-nilai text-white d-flex justify-content-center align-items-center">
+                    <h2>Rekap Nilai</h2>
+                </div>
+                
+                <div class="container-fluid table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">NO.</th>
+                                <th scope="col">NAMA</th>
+                                <th scope="col">NIM</th>
+                                <th scope="col">KELAS</th>
+                                <th scope="col">KEHADIRAN</th>
+                                <th scope="col">TUGAS</th>
+                                <th scope="col">RESPONSI</th>
+                                <th scope="col">UTS</th>
+                                <th scope="col">UAS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Aditya Giri Kurniawan</td>
+                                <td>23.01.4969</td>
+                                <td>D3TI-01</td>
+                                <td>80%</td>
+                                <td>85</td>
+                                <td>90</td>
+                                <td>75</td>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jane Smith</td>
+                                <td>23.01.2345</td>
+                                <td>D3TI-02</td>
+                                <td>85%</td>
+                                <td>75</td>
+                                <td>80</td>
+                                <td>70</td>
+                                <td>85</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Michael Brown</td>
+                                <td>23.01.3456</td>
+                                <td>D3TI-03</td>
+                                <td>90%</td>
+                                <td>80</td>
+                                <td>85</td>
+                                <td>78</td>
+                                <td>82</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Sarah Johnson</td>
+                                <td>23.01.4567</td>
+                                <td>D3TI-01</td>
+                                <td>88%</td>
+                                <td>82</td>
+                                <td>88</td>
+                                <td>76</td>
+                                <td>85</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>David Lee</td>
+                                <td>23.01.5678</td>
+                                <td>D3TI-02</td>
+                                <td>82%</td>
+                                <td>78</td>
+                                <td>85</td>
+                                <td>72</td>
+                                <td>78</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Emily Davis</td>
+                                <td>23.01.6789</td>
+                                <td>D3TI-03</td>
+                                <td>87%</td>
+                                <td>85</td>
+                                <td>90</td>
+                                <td>79</td>
+                                <td>83</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Jason Miller</td>
+                                <td>23.01.7890</td>
+                                <td>D3TI-01</td>
+                                <td>86%</td>
+                                <td>80</td>
+                                <td>82</td>
+                                <td>74</td>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Amy Wilson</td>
+                                <td>23.01.8901</td>
+                                <td>D3TI-02</td>
+                                <td>84%</td>
+                                <td>76</td>
+                                <td>82</td>
+                                <td>71</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Andrew Taylor</td>
+                                <td>23.01.9012</td>
+                                <td>D3TI-03</td>
+                                <td>89%</td>
+                                <td>83</td>
+                                <td>88</td>
+                                <td>80</td>
+                                <td>87</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Olivia Clark</td>
+                                <td>23.01.0123</td>
+                                <td>D3TI-01</td>
+                                <td>85%</td>
+                                <td>79</td>
+                                <td>84</td>
+                                <td>73</td>
+                                <td>82</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td>William White</td>
+                                <td>23.01.1235</td>
+                                <td>D3TI-02</td>
+                                <td>83%</td>
+                                <td>77</td>
+                                <td>81</td>
+                                <td>70</td>
+                                <td>83</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td>Natalie Harris</td>
+                                <td>23.01.2346</td>
+                                <td>D3TI-03</td>
+                                <td>88%</td>
+                                <td>84</td>
+                                <td>87</td>
+                                <td>79</td>
+                                <td>85</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">13</th>
+                                <td>Richard Martin</td>
+                                <td>23.01.3457</td>
+                                <td>D3TI-01</td>
+                                <td>87%</td>
+                                <td>81</td>
+                                <td>83</td>
+                                <td>75</td>
+                                <td>81</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">14</th>
+                                <td>Linda Young</td>
+                                <td>23.01.4568</td>
+                                <td>D3TI-02</td>
+                                <td>81%</td>
+                                <td>75</td>
+                                <td>79</td>
+                                <td>69</td>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">15</th>
+                                <td>Matthew Thompson</td>
+                                <td>23.01.5679</td>
+                                <td>D3TI-03</td>
+                                <td>86%</td>
+                                <td>82</td>
+                                <td>86</td>
+                                <td>77</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">16</th>
+                                <td>Amanda King</td>
+                                <td>23.01.6780</td>
+                                <td>D3TI-01</td>
+                                <td>84%</td>
+                                <td>78</td>
+                                <td>80</td>
+                                <td>72</td>
+                                <td>79</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">17</th>
+                                <td>Joshua Scott</td>
+                                <td>23.01.7891</td>
+                                <td>D3TI-02</td>
+                                <td>82%</td>
+                                <td>76</td>
+                                <td>79</td>
+                                <td>70</td>
+                                <td>82</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">18</th>
+                                <td>Sophia Martinez</td>
+                                <td>23.01.8902</td>
+                                <td>D3TI-03</td>
+                                <td>88%</td>
+                                <td>84</td>
+                                <td>88</td>
+                                <td>78</td>
+                                <td>86</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">19</th>
+                                <td>Christopher Walker</td>
+                                <td>23.01.9013</td>
+                                <td>D3TI-01</td>
+                                <td>86%</td>
+                                <td>80</td>
+                                <td>82</td>
+                                <td>74</td>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">20</th>
+                                <td>Katherine Hall</td>
+                                <td>23.01.0124</td>
+                                <td>D3TI-02</td>
+                                <td>85%</td>
+                                <td>79</td>
+                                <td>84</td>
+                                <td>73</td>
+                                <td>82</td>
+                            </tr>
+                        </tbody>                        
+                    </table>
+                </div>
+            </main>
+            
+        </div>
+    </div>
+</body>
+</html>

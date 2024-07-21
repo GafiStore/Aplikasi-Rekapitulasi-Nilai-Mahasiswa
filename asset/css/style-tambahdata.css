@@ -1,0 +1,133 @@
+
+html, body {
+    overflow: hidden; /* Menghilangkan scroll pada halaman utama */
+    height: 100%;
+}
+
+header { 
+    background-color: #240750;
+    padding: 10px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.header-left h1 {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header-left p {
+    margin: 0;
+    padding-left: 13px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+}
+
+.header-right h4 {
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 10px;
+}
+
+.header-right p {
+    margin: 0;
+    padding-left: 8px;
+    font-size: 8px;
+}
+
+.sidebar {
+    background-color: #140033;
+    height: calc(100vh - 70px);
+}
+
+.nav {
+    font-size: 15px;
+}
+
+.nav-item {
+    padding-top: 15px;
+}
+
+.nav-link img {
+    width: 30px;
+    margin: 0;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #d9d9d9;
+    border-radius: 25px;
+}
+
+.out {
+    margin-left: 6px;
+    padding-bottom: 15px;
+}
+
+.content-box {
+    background-color: #240750;
+    padding: 20px;
+}
+
+.content-box-text {
+    padding-left: 25px;
+}
+
+.tambah-data {
+    background-color: #240750;
+    width: 250px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.tambah-data h2 {
+    font-size: 20px;
+}
+
+/* Tambah CSS untuk form tambah data */
+#formTambahData {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#formTambahData .form-label {
+    font-weight: bold;
+}
+
+#formTambahData .form-select {
+    width: 100%;
+    height: 39px;
+}
+
+#formTambahData .form-control {
+    width: 100%;
+}
+
+#formTambahData .btn {
+    background-color: #240750;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#formTambahData .btn:hover {
+    background-color: #3f0e40;
+}

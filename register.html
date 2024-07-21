@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register Page</title>
+    
+        <!-- Bootstrap Css -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- My Css -->
+        <link rel="stylesheet" href="asset/css/style-register.css">
+    
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid vh-100 overflow-hidden">
+            <div class="row h-100">
+                <!-- Kotak kiri -->
+                <div class="col-md-4 d-flex flex-column align-items-center text-black container-left">
+                    <img src="asset/images/icon-book.png" alt="icon-book" class="mb-3 icon-book img-fluid">
+                    <h1 class="text-center">REKAPITULASI NILAI MAHASISWA</h1>
+                    <input type="text" class="form-control mb-3" id="formControlInput1" placeholder="Nama Lengkap">
+                    <input type="password" class="form-control mb-3" id="formControlInput2" placeholder="Nomor Induk Dosen">
+                    <input type="text" class="form-control mb-3" id="formControlInput3" placeholder="Email address">
+                    <input type="password" class="form-control mb-3" id="formControlInput4" placeholder="Password">
+                    <a href="login.html" class="btn mb-2">Register</a>
+                    <p class="mt-2">Have an account? <a href="login.html" class="text-blue">Sign In</a></p>
+                </div>
+                <!-- Header kanan atas dan gambar di bawahnya -->
+                <div class="col-md-8 p-0">
+                    <div class="header-right text-white d-flex align-items-center justify-content-between p-3">
+                        <img src="asset/images/logo-amikom.png" alt="logo-amikom" class="mb-2 logo-amikom img-fluid">
+                        <div class="text-container">
+                            <h2>UNIVERSITAS AMIKOM</h2>
+                            <h3>YOGYAKARTA</h3>
+                        </div>
+                        <div class="right-container d-flex align-items-center">
+                            <a class="mb-0 mr-2 text-white signin" href="login.html">SIGN IN</a>
+                            <img src="asset/images/line-signin-signup.png" alt="line-signin-signup" class="line-signin-signup img-fluid">
+                            <a class="mb-0 mr-2 text-white signup" href="register.html">SIGN UP</a>
+                        </div>
+                    </div>
+                    <div class="img-container">
+                        <img src="asset/images/image-bg-right.png" alt="image-bg-right" class="img-fluid w-100 h-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

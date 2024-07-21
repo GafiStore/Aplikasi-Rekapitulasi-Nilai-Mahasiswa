@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Page</title>
+
+    <!-- Bootstrap Css -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- My Css -->
+    <link rel="stylesheet" href="asset/css/style-dashboard.css">
+
+</head>
+<body class="vh-100">
+    <!-- Header -->
+    <header class="justify-content-between d-flex text-white">
+        <div class="header-left d-flex align-items-center">
+            <img class="logo" src="asset/images/logo-amikom.png" alt="logo-amikom">
+            <div>
+                <h1>UNIVERSITAS AMIKOM</h1>
+                <p>YOGYAKARTA</p>
+            </div>
+        </div>
+        <div class="header-right d-flex align-items-center">
+            <img class="avatar" src="asset/images/avatar-3.png" alt="avatar">
+            <div>
+                <h4>Nama Lengkap Dosen</h4>
+                <p>Nomor Induk Dosen</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-flex flex-column justify-content-between sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="dashboard.html">
+                            <img src="asset/images/home-dashboard.png" alt="">Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="tambahdata.html">
+                            <img src="asset/images/tambahdata.png" alt="">Tambah Data
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="rekapnilai.html">
+                            <img src="asset/images/rekapnilai.png" alt="">Rekap Nilai
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <img src="asset/images/people.png" alt="">Profil Dosen
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item out">
+                        <a class="nav-link active" aria-current="page" href="login.html">
+                            <img src="asset/images/keluar.png" alt="">Keluar
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Content -->
+            <main class="container col-md-9 ms-sm-auto col-lg-10 px-md-4 p-4">
+                <div class="container-fluid d-flex content-box text-white align-items-center">
+                    <img src="asset/images/box-qr.png" alt="box-qr" style="width: 150px;height: auto;">
+                    <div class="content-box-text">
+                        <h2>Selamat Datang di Dashboard Dosen,</h2>
+                        <h2>Creativity Amikom Yogyakarta</h2>
+                    </div>
+                </div>
+                <div class="jadwal-kelas text-white d-flex justify-content-center align-items-center">
+                    <h2>Jadwal Kelas</h2>
+                </div>
+                <div class="container-fluid table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">NO.</th>
+                                <th scope="col">HARI | JAM | RUANG</th>
+                                <th scope="col">MATA KULIAH</th>
+                                <th scope="col">ABOUT</th>
+                                <th class="text-center" scope="col">PRESENSI</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Senin | 07.00 - 08.40 | 7.2.1</td>
+                                <td>Pemograman Web</td>
+                                <td>Praktikum</td>
+                                <td class="text-center"><a href="#"><img style="width: 20px; height: 20px;" src="asset/images/open.png" alt="open"></a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Senin | 10:00 - 12:00 | 5.4.3</td>
+                                <td>Basis Data</td>
+                                <td>Teori</td>
+                                <td class="text-center">BELUM TERSEDIA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Selasa | 08:40 - 10:20 | -</td>
+                                <td>Algoritma dan Struktur Data</td>
+                                <td>Teori (Daring)</td>
+                                <td class="text-center">BELUM TERSEDIA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Rabu | 10:50 - 12:40 | 7.4.1</td>
+                                <td>Sistem Operasi</td>
+                                <td>Praktikum</td>
+                                <td class="text-center">BELUM TERSEDIA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Rabu | 09:00 - 11:00 | 7.4.2</td>
+                                <td>Jaringan Komputer</td>
+                                <td>Praktikum</td>
+                                <td class="text-center">BELUM TERSEDIA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Rabu | 13.20 - 15.00 | 7.2.1</td>
+                                <td>Pemograman Web</td>
+                                <td>Teori</td>
+                                <td class="text-center">BELUM TERSEDIA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Rabu | 15.30 - 15:00 | 5.4.3</td>
+                                <td>Basis Data</td>
+                                <td>Teori</td>
+                                <td class="text-center">BELUM TERSEDIA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Kamis | 08:40 - 10:00 | -</td>
+                                <td>Algoritma dan Struktur Data</td>
+                                <td>Praktikum</td>
+                                <td class="text-center">BELUM TERSEDIA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Jumat | 07:00 - 08:40 | 7.4.1</td>
+                                <td>Sistem Operasi</td>
+                                <td>Teori</td>
+                                <td class="text-center">BELUM TERSEDIA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Jumat | 13:20 - 15:00 | 7.4.2</td>
+                                <td>Jaringan Komputer</td>
+                                <td>Teori</td>
+                                <td class="text-center">BELUM TERSEDIA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

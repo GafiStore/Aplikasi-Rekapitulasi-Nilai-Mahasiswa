@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data Page</title>
+
+    <!-- Bootstrap Css -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- My Css -->
+    <link rel="stylesheet" href="asset/css/style-tambahdata.css">
+
+</head>
+<body class="vh-100">
+    <!-- Header -->
+    <header class="justify-content-between d-flex text-white">
+        <div class="header-left d-flex align-items-center">
+            <img class="logo" src="asset/images/logo-amikom.png" alt="logo-amikom">
+            <div>
+                <h1>UNIVERSITAS AMIKOM</h1>
+                <p>YOGYAKARTA</p>
+            </div>
+        </div>
+        <div class="header-right d-flex align-items-center">
+            <img class="avatar" src="asset/images/avatar-3.png" alt="avatar">
+            <div>
+                <h4>Nama Lengkap Dosen</h4>
+                <p>Nomor Induk Dosen</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-flex flex-column justify-content-between sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="dashboard.html">
+                            <img src="asset/images/home-dashboard.png" alt="">Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="tambahdata.html">
+                            <img src="asset/images/tambahdata.png" alt="">Tambah Data
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="rekapnilai.html">
+                            <img src="asset/images/rekapnilai.png" alt="">Rekap Nilai
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <img src="asset/images/people.png" alt="">Profil Dosen
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item out">
+                        <a class="nav-link active" aria-current="page" href="login.html">
+                            <img src="asset/images/keluar.png" alt="">Keluar
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Content -->
+            <main class="container col-md-9 ms-sm-auto col-lg-10 px-md-4 p-4">
+                <div class="container-fluid d-flex content-box text-white align-items-center">
+                    <img src="asset/images/box-qr.png" alt="box-qr" style="width: 150px;height: auto;">
+                    <div class="content-box-text">
+                        <h2>Selamat Datang di Dashboard Dosen,</h2>
+                        <h2>Creativity Amikom Yogyakarta</h2>
+                    </div>
+                </div>
+                <div class="tambah-data text-white d-flex justify-content-center align-items-center">
+                    <h2>Tambah Data</h2>
+                </div>
+                
+                <!-- Form Tambah Data -->
+                <form id="formTambahData" class="container-fluid border tambahdata p-4 mb-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="formControlInput1" class="form-label">Pilihan Kelas</label>
+                                <select class="form-select" id="formControlInput1">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">D3TI-01</option>
+                                    <option value="2">D3TI-02</option>
+                                    <option value="3">D3TI-03</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="formControlInput2" class="form-label">Pilihan Data</label>
+                                <select class="form-select" id="formControlInput2">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">TUGAS 1</option>
+                                    <option value="2">TUGAS 2</option>
+                                    <option value="3">RESPONSI</option>
+                                    <option value="4">UTS</option>
+                                    <option value="5">UAS</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="formControlInput3" class="form-label">NIM</label>
+                                <input type="text" class="form-control" id="formControlInput3" placeholder="Masukkan NIM">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formControlInput4" class="form-label">Nilai</label>
+                                <input type="text" class="form-control" id="formControlInput4" placeholder="Masukkan Nilai">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end mt-3">
+                        <button type="submit" class="btn btn-primary">SUBMIT</button>
+                    </div>
+                </form>
+            </main>
+            
+        </div>
+    </div>
+</body>
+</html>

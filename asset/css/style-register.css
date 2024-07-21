@@ -1,0 +1,89 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container-left {
+    background-color: #f8f9fa;
+}
+
+.icon-book {
+    width: 100px; /* Sesuaikan ukuran ikon */
+    margin-top: 30px;
+}
+
+.container-left h1 {
+    text-align: center;
+    font-size: 30px; /* Kurangi ukuran font */
+    margin-bottom: 30px;
+}
+
+.form-control {
+    width: 80%; /* Kurangi lebar form */
+    height: 50px; /* Kurangi tinggi */
+    border-radius: 15px; /* Kurangi border-radius */
+    font-size: 1rem; /* Kurangi ukuran font */
+}
+
+.forgot-pass {
+    width: 80%;
+    text-align: right;
+    padding-bottom: 10px; /* Kurangi padding bawah */
+}
+
+.btn {
+    background-color: #240750;
+    color: white;
+    width: 80%; /* Kurangi lebar tombol */
+    max-width: 450px; /* Kurangi max-width */
+    height: 50px; /* Kurangi tinggi */
+    border-radius: 15px; /* Kurangi border-radius */
+    font-size: 1.25rem; /* Kurangi ukuran font */
+    font-style: normal;
+}
+
+.header-right {
+    background-color: #240750;
+}
+
+.logo-amikom {
+    width: 50px; /* Kurangi ukuran logo */
+}
+
+.text-container {
+    padding-left: 10px; /* Kurangi padding kiri */
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container h2 {
+    font-size: 1.5rem; /* Kurangi ukuran font */
+    margin: 0; /* Hapus margin default */
+}
+
+.text-container h3 {
+    font-size: 1rem; /* Kurangi ukuran font */
+    margin-left: 2px;
+}
+
+.right-container {
+    display: flex;
+    align-items: center; /* Pusatkan elemen secara vertikal */
+    margin-left: auto; /* Menggeser container ini ke kanan */
+}
+
+.signin {
+    font-size: 1rem; /* Kurangi ukuran font */
+}
+
+.signup {
+    font-size: 1rem; /* Kurangi ukuran font */
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Agar gambar tetap terjaga proporsinya */
+    object-position: top; /* Menampilkan bagian atas gambar */
+}
